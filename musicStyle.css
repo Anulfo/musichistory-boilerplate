@@ -1,0 +1,106 @@
+.header {
+    width: 60%;
+    background-color: #FFB4B0;
+    border: 2px solid black;
+    margin: 2em auto 1em auto;
+
+}
+
+.searchMach {
+    background-color: #4DD7FA;
+}
+
+.songList {
+    background-color: #FEFAC0;
+}
+
+h1 {
+    font-family: sans-serif;
+    color: #785616;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+#navBar li {
+    font-size: 1.2em;
+    display: inline-block;
+    border-right: 2px solid black;
+    padding-right: 3px;
+}
+
+.searchMach {
+    width: 20%;
+    height: 478px;
+    border: 2px solid black;
+    float: left;
+    margin-left: 20%;
+}
+
+.rangeObj {
+    padding-left: .6em;
+}
+
+.searchMach h3 {
+    font-family: sans-serif;
+    font-weight: normal;
+    margin-left: 1em;
+}
+
+.songList {
+    width: 38%;
+    border: 2px solid black;
+    float: left;
+    margin-right: 10%;
+    margin-left: 1em;
+}
+
+.songSpec {
+    padding-left: 2em;
+}
+
+.songSpec ul {
+    padding-left: 0;
+
+}
+.songSpec ul li {
+    font-family: sans-serif;
+    display: inline-block;
+    padding-right: 1em;
+    margin-top: 0;
+}
+
+.inputers {
+    font-size: 1.1em;
+    margin-left: 1em;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.checkbox {
+    margin: auto 1em 1em 1em;
+    border: 1px solid black;
+}
+
+.firstCheckBoxes {
+    font-family: sans-serif;
+    width: 40%;
+    float: left;
+    margin-left: 1em;
+    margin-bottom: 1em;
+}
+.secondCheckBoxes {
+    font-family: sans-serif;
+    width: 40%;
+    float: left;
+    margin-left: 1em;
+    margin-bottom: 1em;
+}
+.subButton {
+    font-size: 1.2em;
+    display: block;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding-left: 2em;
+    padding-right: 2em;
+}
