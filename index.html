@@ -4,10 +4,94 @@
 <head>
   <meta charset="utf-8">
   <title>Music History</title>
+  <link rel="stylesheet" type="text/css" href="musicStyle.css">
 </head>
 
 <body>
-
-
+    <div class='header'>
+    <ul id = 'navBar'>
+        <a href='#1'><li>View Music</li></a>
+        <a href='#2'><li>Add Music</li></a>
+        <a href='#3'><li>Profile</li></a>
+    </ul>
+    </div>
+    <div class='searchMach'>
+        <form>
+            <h3>Song Length:</h3>
+            <div class="rangeObj">
+                <input class="inputers" type="range" name="songLength">
+            </div>
+            <h3>Artist:</h3>
+                <select class="inputers">
+                    <option value='incubus'>Incubus</option>
+                    <option value='radiohead'>Radiohead</option>
+                    <option value='sigur Ros'>Sigur Ros</option>
+                    <option value='tiesto'>Tiesto</option>
+                    <option value='daftpunk'>Daft Punk</option>
+                </select>
+            <h3>Album:</h3>
+                <select class="inputers">
+                    <option value='incubus'>Make Yourself</option>
+                    <option value='radiohead'>Kid A</option>
+                    <option value='sigur Ros'>Sigur Ros</option>
+                    <option value='tiesto'>Club Life Las Vegas</option>
+                    <option value='daftpunk'>Random Access Memory</option>
+                </select>
+            <h3>Genre:</h3>
+            <div class="firstCheckBoxes"
+                <label><input class="checkbox" type="checkbox" name="rock">Rock</label>
+                <label><input class="checkbox" type="checkbox" name="pop">Pop</label>
+                <label><input class="checkbox" type="checkbox" name="blues">Blues</label>
+            </div>
+            <div class="secondCheckBoxes"
+                <label><input class="checkbox" type="checkbox" name="classical">Classical</label>
+                <label><input class="checkbox" type="checkbox" name="jazz">Jazz</label>
+                <label><input class="checkbox" type="checkbox" name="hiphop">Hip Hop</label>
+            </div>
+            <input class="subButton" type="button" name="Filter" value="Filter">
+        </form>
+    </div>
+    <div class='songList'>
+        <div class='songSpec'>
+            <h1>Song Name</h1>
+                <ul>
+                    <li>Artist Name   |</li>
+                    <li>Album Name   |</li>
+                    <li>Genre</li>
+                </ul>
+        </div>
+        <div class='songSpec'>
+            <h1>Song Name</h1>
+                <ul>
+                    <li>Artist Name   |</li>
+                    <li>Album Name   |</li>
+                    <li>Genre</li>
+                </ul>
+        </div>
+        <div class='songSpec'>
+            <h1>Song Name</h1>
+                <ul>
+                    <li>Artist Name   |</li>
+                    <li>Album Name   |</li>
+                    <li>Genre</li>
+                </ul>
+        </div>
+        <div class='songSpec'>
+            <h1>Song Name</h1>
+                <ul>
+                    <li>Artist Name   |</li>
+                    <li>Album Name   |</li>
+                    <li>Genre</li>
+                </ul>
+        </div>
+        <div class='songSpec'>
+            <h1>Song Name</h1>
+                <ul>
+                    <li>Artist Name   |</li>
+                    <li>Album Name   |</li>
+                    <li>Genre</li>
+                </ul>
+        </div>
+    </div>
 </body>
 </html>
