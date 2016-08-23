@@ -59,7 +59,7 @@ input[type=range]:focus::-webkit-slider-runnable-track {
 
 .searchMach {
     width: 20%;
-    height: 478px;
+    height: 510px;
     border: 2px solid black;
     float: left;
     margin-left: 20%;
@@ -78,7 +78,7 @@ input[type=range]:focus::-webkit-slider-runnable-track {
 
 #songList {
     width: 38%;
-    height: 478px;
+    height: 510px;
     border: 2px solid black;
     float: left;
     margin-right: 10%;
@@ -101,6 +101,9 @@ input[type=range]:focus::-webkit-slider-runnable-track {
     margin-top: 0;
 }
 
+.backGroundProc {
+    display: none;
+}
 .inputers {
     font-size: 1.1em;
     margin-left: 1em;
@@ -113,6 +116,10 @@ input[type=range]:focus::-webkit-slider-runnable-track {
     border: 1px solid black;
 }
 
+.userInput input {
+    margin: 0 0 1em 2em;
+    border: 1px solid black;
+}
 .firstCheckBoxes {
     font-family: sans-serif;
     width: 40%;

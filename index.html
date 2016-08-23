@@ -10,9 +10,8 @@
 <body>
     <div class='header'>
     <ul id = 'navBar'>
-        <a href='#1'><li>View Music</li></a>
+        <a href='#1'><li>List Music</li></a>
         <a href='#2'><li>Add Music</li></a>
-        <a href='#3'><li>Profile</li></a>
     </ul>
     </div>
     <div class='searchMach'>
@@ -21,22 +20,16 @@
             <div class="rangeObj">
                 <input class="inputers" type="range" name="songLength">
             </div>
+            <div class="userInput">
+            <h3>Song Name:</h3>
+                <input type="text" name="songName">
             <h3>Artist:</h3>
-                <select class="inputers">
-                    <option value='incubus'>Incubus</option>
-                    <option value='radiohead'>Radiohead</option>
-                    <option value='sigur Ros'>Sigur Ros</option>
-                    <option value='tiesto'>Tiesto</option>
-                    <option value='daftpunk'>Daft Punk</option>
-                </select>
+                <input type="text" name="artistName">
             <h3>Album:</h3>
-                <select class="inputers">
-                    <option value='incubus'>Make Yourself</option>
-                    <option value='radiohead'>Kid A</option>
-                    <option value='sigur Ros'>Sigur Ros</option>
-                    <option value='tiesto'>Club Life Las Vegas</option>
-                    <option value='daftpunk'>Random Access Memory</option>
-                </select>
+                <input type="text" name="albumName">
+                <input class="subButton" type="button" name="Filter" value="Add">
+            </div>
+           
             <h3>Genre:</h3>
             <div class="firstCheckBoxes"
                 <label><input class="checkbox" type="checkbox" name="rock">Rock</label>
@@ -48,52 +41,10 @@
                 <label><input class="checkbox" type="checkbox" name="jazz">Jazz</label>
                 <label><input class="checkbox" type="checkbox" name="hiphop">Hip Hop</label>
             </div>
-            <input class="subButton" type="button" name="Filter" value="Filter">
         </form>
     </div>
     <div id='songList'>
 
-            <!-- GOT THIS OUT FOR VERSION 2 -->
-        <!-- <div class='songSpec'>
-            <h1>Song Name</h1>
-                <ul>
-                    <li>Artist Name   |</li>
-                    <li>Album Name   |</li>
-                    <li>Genre</li>
-                </ul>
-        </div>
-        <div class='songSpec'>
-            <h1>Song Name</h1>
-                <ul>
-                    <li>Artist Name   |</li>
-                    <li>Album Name   |</li>
-                    <li>Genre</li>
-                </ul>
-        </div>
-        <div class='songSpec'>
-            <h1>Song Name</h1>
-                <ul>
-                    <li>Artist Name   |</li>
-                    <li>Album Name   |</li>
-                    <li>Genre</li>
-                </ul>
-        </div>
-        <div class='songSpec'>
-            <h1>Song Name</h1>
-                <ul>
-                    <li>Artist Name   |</li>
-                    <li>Album Name   |</li>
-                    <li>Genre</li>
-                </ul>
-        </div>
-        <div class='songSpec'>
-            <h1>Song Name</h1>
-                <ul>
-                    <li>Artist Name   |</li>
-                    <li>Album Name   |</li>
-                    <li>Genre</li>
-                </ul>
-         </div>-->
     </div>
     <script type="text/javascript" src="songs.js"></script>>
 </body>
