@@ -11,9 +11,21 @@ $(document).ready(function() {
     populateDom(contentsOfTheFile);
   });
 
+
 var populateDom = function (contentsOfTheFile) {
-    console.log(contentsOfTheFile);
-    console.log(contentsOfTheFile.songs.breakfast);
+    $.each(contentsOfTheFile.songs, function() {
+        // console.log(key, value)
+        console.log(this);
+        $("#songList").append(
+            `<div class="row">
+                <h3>Album: </h3>
+                <h4>${this.album}</h4>
+                <h3>Artist: </h3>
+                <h4>${this.artist}</h4>
+                <h3>Title: </h3>
+                <h4>${this.title}</h4>
+            </div>`)
+    })
 }
 $("#addView").click(function() {
     console.log("HI")

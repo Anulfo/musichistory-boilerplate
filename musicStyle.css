@@ -86,6 +86,7 @@ input[type=range]:focus::-webkit-slider-runnable-track {
     /*margin-right: 10%;*/
     /*margin-left: 1em;*/
     background-color: #FEFAC0 ;
+    overflow: scroll;
 }
 
 .songSpec {
