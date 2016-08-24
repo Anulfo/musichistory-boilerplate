@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
   $.ajax({
-    url: "songsFile.json"
+    url: "https://music-history-3ad4e.firebaseio.com/.json"
   }).done(function(contentsOfTheFile) {
     // When you tell jQuery to read a file via the ajax method
     // it reads the contents, and then executes whatever function
