@@ -1,8 +1,8 @@
 .header {
-    width: 60%;
+    /*width: 60%;*/
     background-color: #FFB4B0;
     border: 2px solid black;
-    margin: 2em auto 1em auto;
+    /*margin: 2em auto 1em auto;*/
 
 }
 
@@ -12,15 +12,16 @@
 
 .songList {
     background-color: #FEFAC0;
-    margin-bottom: 2em;
+    /*margin-bottom: 2em;*/
 }
 
 h1 {
     font-family: sans-serif;
     color: #785616;
     font-weight: 400;
-    margin-bottom: 0;
+    /*margin-bottom: 0;*/
 }
+
 input[type=range]{
     -webkit-appearance: none;
 }
@@ -52,37 +53,38 @@ input[type=range]:focus::-webkit-slider-runnable-track {
 }
 #navBar li {
     font-size: 1.2em;
-    display: inline-block;
+    /*display: inline-block;*/
     border-right: 2px solid black;
     padding-right: 3px;
+    list-style: none;
 }
 
 .searchMach {
-    width: 20%;
-    height: 510px;
+    /*width: 20%;*/
+    /*height: 510px;*/
     border: 2px solid black;
-    float: left;
-    margin-left: 20%;
+    /*float: left;*/
+    /*margin-left: 20%;*/
     margin-bottom: 2em;
 }
 
 .rangeObj {
-    padding-left: .6em;
+    /*padding-left: .6em;*/
 }
 
 .searchMach h3 {
     font-family: sans-serif;
     font-weight: normal;
-    margin-left: 1em;
+    /*margin-left: 1em;*/
 }
 
 #songList {
-    width: 38%;
-    height: 510px;
+    /*width: 38%;*/
+    height: 500px;
     border: 2px solid black;
-    float: left;
-    margin-right: 10%;
-    margin-left: 1em;
+    /*float: left;*/
+    /*margin-right: 10%;*/
+    /*margin-left: 1em;*/
     background-color: #FEFAC0 ;
 }
 
@@ -117,23 +119,11 @@ input[type=range]:focus::-webkit-slider-runnable-track {
 }
 
 .userInput input {
-    margin: 0 0 1em 2em;
+    /*margin: 0 0 1em 2em;*/
     border: 1px solid black;
-}
-.firstCheckBoxes {
-    font-family: sans-serif;
-    width: 40%;
-    float: left;
     margin-left: 1em;
-    margin-bottom: 1em;
 }
-.secondCheckBoxes {
-    font-family: sans-serif;
-    width: 42%;
-    float: left;
-    margin-left: 1em;
-    margin-bottom: 1em;
-}
+
 .subButton {
     font-size: 1.2em;
     display: block;

@@ -9,43 +9,74 @@
 </head>
 
 <body>
-    <div class='header'>
-    <ul id = 'navBar'>
-        <a href='#1'><li>List Music</li></a>
-        <a href='#2'><li>Add Music</li></a>
-    </ul>
-    </div>
-    <div class='searchMach'>
-        <form>
-            <h3>Song Length:</h3>
-            <div class="rangeObj">
-                <input class="inputers" type="range" name="songLength">
+    <div class="container">
+        <div class = "row">
+            <div class="header col-md-12 navbar navbar-default">
+                <ul id = 'navBar'>
+                    <a class="navbar-brand" href='#1'><li>List Music</li></a>
+                    <a class="navbar-brand" href='#2'><li>Add Music</li></a>
+                </ul>
             </div>
-            <div class="userInput">
-            <h3>Song Name:</h3>
-                <input type="text" name="songName">
-            <h3>Artist:</h3>
-                <input type="text" name="artistName">
-            <h3>Album:</h3>
-                <input type="text" name="albumName">
-                <input class="subButton" type="button" name="Filter" value="Add">
+        </div>
+        <div class = "row">
+            <div class='searchMach col-md-4'>
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3>Song Length:</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="rangeObj">
+                            <input class="inputers" type="range" name="songLength">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="userInput col-md-12">
+                        <h3 class="col-md-12">Song Name:</h3>
+                        <input type="text" name="songName">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="userInput col-md-12">
+                        <h3 class="col-md-12">Artist:</h3>
+                        <input type="text" name="artistName">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="userInput col-md-12">
+                        <h3 class="col-md-12">Album:</h3>
+                        <input type="text" name="albumName">
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                            <input class="subButton" type="button" name="Filter" value="Add">
+                </div> 
+                <div class="row">
+                    <h3 class="col-md-12">Genre:</h3>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <label><input class="checkbox" type="checkbox" name="rock">Rock</label>
+                        <label><input class="checkbox" type="checkbox" name="pop">Pop</label>
+                        <label><input class="checkbox" type="checkbox" name="blues">Blues</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <label><input class="checkbox" type="checkbox" name="classical">Classical</label>
+                        <label><input class="checkbox" type="checkbox" name="jazz">Jazz</label>
+                        <label><input class="checkbox" type="checkbox" name="hiphop">Hip Hop</label>
+                    </div>
+                </div>
             </div>
-           
-            <h3>Genre:</h3>
-            <div class="firstCheckBoxes"
-                <label><input class="checkbox" type="checkbox" name="rock">Rock</label>
-                <label><input class="checkbox" type="checkbox" name="pop">Pop</label>
-                <label><input class="checkbox" type="checkbox" name="blues">Blues</label>
+            <div class="col-md-1">
             </div>
-            <div class="secondCheckBoxes"
-                <label><input class="checkbox" type="checkbox" name="classical">Classical</label>
-                <label><input class="checkbox" type="checkbox" name="jazz">Jazz</label>
-                <label><input class="checkbox" type="checkbox" name="hiphop">Hip Hop</label>
+            <div id="songList" class="col-md-7">
             </div>
-        </form>
-    </div>
-    <div id='songList'>
-
+        </div>
     </div>
 <script src="/bower_components/jquery/dist/jquery.min.js"></script>
 <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>  
