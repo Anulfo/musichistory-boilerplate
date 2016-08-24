@@ -28,3 +28,15 @@ var theDom = document.getElementById("songList");
 for (var i = 0; i < cleanStrings.length; i++) {
 theDom.innerHTML += "<li>" + cleanStrings[i] + "</li>";
 }
+
+$("#addView").click(function() {
+    console.log("HI")
+    $(".listMusicView").addClass("hidden");
+    $(".addMusicView").removeClass("hidden");
+})
+
+$("#listView").click(function() {
+    console.log("HI2")
+    $(".addMusicView").addClass("hidden");
+    $(".listMusicView").removeClass("hidden");
+})

@@ -10,15 +10,15 @@
 
 <body>
     <div class="container">
-        <div class = "row">
+        <div class ="row">
             <div class="header col-md-12 navbar navbar-default">
                 <ul id = 'navBar'>
-                    <a class="navbar-brand" href='#1'><li>List Music</li></a>
-                    <a class="navbar-brand" href='#2'><li>Add Music</li></a>
+                    <a class="navbar-brand" href='#1'><li id="listView">List Music</li></a>
+                    <a class="navbar-brand" href='#2'><li id="addView">Add Music</li></a>
                 </ul>
             </div>
         </div>
-        <div class = "row">
+        <div class = "row listMusicView hidden">
             <div class='searchMach col-md-4'>
                 <div class="row">
                     <div class="col-md-12">
@@ -76,6 +76,35 @@
             </div>
             <div id="songList" class="col-md-7">
             </div>
+        </div>
+        <div class = "row addMusicView">
+            <div class="row">
+                <div class="col-md-4">
+                </div>
+                <h3 class="col-md-4">Add a Song</h3>
+            </div>
+            <br>            
+            <div class="row">
+                <div class="col-md-4">
+                </div>
+                <input class="col-md-4" id="songName" type="text" placeholder="name">
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-4">
+                </div>
+                    <input class="col-md-4" id="songName" type="text" placeholder="artist">
+            </div>  
+            <br>          
+            <div class="row">
+                <div class="col-md-4">
+                </div>
+                    <input class="col-md-4" id="songName" type="text" placeholder="album">
+            </div>
+            <br>
+            <div class="row">
+                <input class="subButton" type="button" name="Filter" value="Add">
+            </div> 
         </div>
     </div>
 <script src="/bower_components/jquery/dist/jquery.min.js"></script>
